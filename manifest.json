@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Text picker",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "permissions": [
+    "clipboardWrite",
+    "clipboardRead"
+  ]
+}
